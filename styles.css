@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Outfit:wght@300;400;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    
+    text-align: left;
+    font-size: 18px;
+}
+
+
+.container{
+    width: 22%;
+    margin-top: 15vh;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    padding: 1rem;
+        box-shadow: 10px 10px 5px  hsl(214, 41%, 13%) , -10px 10px 5px  hsl(214, 41%, 13%);
+   
+}
+
+img{
+ max-width: 100%;
+
+ border-radius: 0.6rem;
+ margin-bottom: 1rem;
+  
+}
+
+h1{
+     font-size: x-large;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+}
+
+p{
+    color: hsl(215, 32%, 27%);
+   
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+    display: inline;
+   font-weight: 600;
+    
+}
+
+.leftdays{
+     font-weight: 600;
+    float:right;
+  
+}
+
+.icon{
+    padding-top: 2px;
+}
+
+hr{
+    margin: 1rem 0;
+    border: 1px solid  hsl(215, 32%, 27%);
+     border-width: 1px 0px 0px 0px; 
+
+}
+
+
+.dp{
+   font-size: medium;
+    display: inline;
+    margin-left: 0.8rem;
+}
+
+.avatar{
+    width: 9%;
+    float: left;
+    border: 1px solid white;
+    border-radius: 100%;
+
+    
+}
+
+.nameofdp{
+   font-size: medium;
+    display: inline;
+    color: white;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .container {
+      width: 60%;
+    }
+  }
